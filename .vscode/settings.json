@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "todo-tree.tree.autoRefresh": true,
+  "todo-tree.tree.tagsOnly": true,
+  "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "TIPS"],
+  "todo-tree.filtering.excludeGlobs": ["**/node_modules/*"],
+  "todo-tree.regex.regex": "(?:(?://|#|<!--|;|/\\*\\*?|\\*)\\s*($TAGS)|^\\s*- \\[ \\])"
+}
